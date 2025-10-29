@@ -20,8 +20,10 @@
             </Label>
             <Entry
                 Grid.Row="0"
-                Grid.Column="0"
-                Background="Black">
+                Grid.Column="1"
+                Background="Black"
+                TextChanged="Entry_TextChanged"
+                x:Name="EnteredTextLabel">
             
             </Entry>
            
@@ -37,8 +39,8 @@
                 Text="Aquí se va a ver lo que escribiste"
                 HorizontalOptions="Center"
                 FontSize="Small"
-                FontAttributes="Italic">
-              
+                FontAttributes="Italic"
+                x:Name="EnteredTextLabel">
             </Label>
 
         </VerticalStackLayout>
