@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBinding.DataObject", "D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBinding.XamlElement", "DataBinding.XamlElement\DataBinding.XamlElement.csproj", "{83F01A0A-278C-4971-894B-7CCE187D963B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBinding.Coleccion", "DataBinding.Coleccion\DataBinding.Coleccion.csproj", "{BEC52D4C-CB2A-44E4-9FAC-5A929B404590}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +24,11 @@ Global
 		{83F01A0A-278C-4971-894B-7CCE187D963B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{83F01A0A-278C-4971-894B-7CCE187D963B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83F01A0A-278C-4971-894B-7CCE187D963B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEC52D4C-CB2A-44E4-9FAC-5A929B404590}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEC52D4C-CB2A-44E4-9FAC-5A929B404590}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEC52D4C-CB2A-44E4-9FAC-5A929B404590}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BEC52D4C-CB2A-44E4-9FAC-5A929B404590}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEC52D4C-CB2A-44E4-9FAC-5A929B404590}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DataBinding.Coleccion.Views.MainPage"
+             Title="MainPage"
+             BackgroundColor="LightGray">
+    <Grid 
+        RowDefinitions="Auto,*,Auto"
+        Padding="16">
+        <Grid
+            ColumnDefinitions="*,Auto,Auto"
+            ColumnSpacing="4">
+            <Label
+                Text="Origenes del paquete"/>
+            <Button
+                Grid.Column="1"
+                Text="+"/>
+            <Button
+                Grid.Column="2"
+                Text="X"/>
+        </Grid>
+        <Grid
+            Grid.Row="2"
+            RowDefinitions="Auto,*,Auto"
+            ColumnDefinitions="Auto,*,Auto">
+            <Label
+                Text="Nombre:"/>
+            <Entry
+                Grid.Column="1"/>
+            <Label
+                Grid.Row="1"
+                Text="Origen:"/>
+            <Entry
+                Grid.Row="1"
+                Grid.Column="1"/>
+            <Button
+                Grid.Row="1"
+                Grid.Column="2"
+                Text="Actualizar"/>
+
+        </Grid>
+
+    </Grid>
+        
+
+ 
+</ContentPage>
