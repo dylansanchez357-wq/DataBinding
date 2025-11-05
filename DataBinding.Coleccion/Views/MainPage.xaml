@@ -11,37 +11,66 @@
             ColumnDefinitions="*,Auto,Auto"
             ColumnSpacing="4">
             <Label
-                Text="Origenes del paquete"/>
+                Text="Origenes del paquete:"
+                VerticalOptions="Center"
+                TextColor="Black"/>
             <Button
                 Grid.Column="1"
-                Text="+"/>
+                Text="+"
+                BackgroundColor="White"
+                TextColor="Green"
+                FontAttributes="Bold"
+                BorderColor="Gray"
+                BorderWidth="1"
+                Clicked="OnAgregarButtonClicked"/>
             <Button
                 Grid.Column="2"
-                Text="X"/>
+                Text="X"
+                BackgroundColor="White"
+                TextColor="Red"
+                FontAttributes="Bold"
+                BorderColor="Gray"
+                BorderWidth="1"
+                Clicked="OnDeleteButtonClicked"/>
         </Grid>
+
+        <ListView
+            Grid.Row="1"
+            BackgroundColor="Beige"
+            SelectionMode="Single"
+            x:Name="OrigenesListView">
+        
+        </ListView>
+
         <Grid
             Grid.Row="2"
-            RowDefinitions="Auto,*,Auto"
-            ColumnDefinitions="Auto,*,Auto">
+            RowDefinitions="Auto,Auto,Auto"
+            ColumnDefinitions="Auto,*,Auto"
+            RowSpacing="8"
+            ColumnSpacing="8">
             <Label
-                Text="Nombre:"/>
+                Text="Nombre:"
+                TextColor="Black"
+                VerticalOptions="Center"/>
             <Entry
                 Grid.Column="1"/>
             <Label
                 Grid.Row="1"
-                Text="Origen:"/>
+                Text="Origen:"
+                TextColor="Black"/>
             <Entry
                 Grid.Row="1"
                 Grid.Column="1"/>
             <Button
                 Grid.Row="1"
                 Grid.Column="2"
-                Text="Actualizar"/>
+                Text="Actualizar"
+                BackgroundColor="White"/>
+
+
 
         </Grid>
-
     </Grid>
         
-
  
 </ContentPage>
