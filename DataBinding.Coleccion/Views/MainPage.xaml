@@ -11,8 +11,8 @@
         RowDefinitions="Auto,*,Auto"
         Padding="16">
         <Grid
-            ColumnDefinitions="Auto,*,Auto"
-            Padding="16">
+            ColumnDefinitions="*,auto,Auto"
+            Padding="12">
             <Label
                 Text="Origenes del paquete:"
                 VerticalOptions="Center"
@@ -49,12 +49,12 @@
                 <DataTemplate x:DataType="{x:Type models:OrigenDePaquete}">
                     <Border
                         Stroke="Blue"
-                        Padding="18">
+                        Padding="8">
                         <Grid
                             RowDefinitions="auto,*"
                             ColumnDefinitions="auto,auto">
                             <CheckBox
-                                Grid.ColumnSpan="2"
+                                Grid.ColumnSpan="1"
                                 IsChecked="{Binding EstaHabilitado}"/>
                             <Label
                                 Grid.Column="1"
